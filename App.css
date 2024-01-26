@@ -344,7 +344,7 @@ button {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 10px;
 }
-.title {
+.title1 {
   position: absolute;
   width: 34px;
   height: 16px;
@@ -411,6 +411,8 @@ ul {
   cursor: pointer;
 }
 
+
+
 .costumer-reviews {
   position: absolute;
   width: 282px;
@@ -423,6 +425,7 @@ ul {
   line-height: 48px;
   letter-spacing: 0px;
   text-align: center;
+  
 }
 .write {
   position: absolute;
@@ -445,5 +448,294 @@ ul {
   letter-spacing: 0px;
   text-align: left;
   color: rgba(255, 255, 255, 1);
-  
+}
+.first-coment-box {
+  position: absolute;
+  width: 664px;
+  height: 146px;
+  top: 936px;
+  left: 213px;
+}
+
+.coment-logo {
+  position: absolute;
+  font-size: 45px;
+  left: 20px;
+}
+.coment-name {
+  position: absolute;
+  width: 191px;
+  height: 20px;
+  left: 100px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.coment-stars {
+  position: absolute;
+  width: 114.51px;
+  height: 19.09px;
+  gap: 5px;
+  left: 100px;
+  top: 35px;
+  color: rgba(250, 212, 9, 1);
+  padding: 0px, 0px, 0px, 0px;
+  font-weight: 700;
+  display: flex;
+}
+
+#coment-star {
+  color: rgba(42, 42, 42, 1);
+}
+
+.coment-score {
+  position: absolute;
+  left: 100px;
+  top: 55px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  width: 200px;
+}
+
+.coment {
+  position: absolute;
+  left: 100px;
+  top: 95px;
+  width: 597px;
+  height: 52px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(103, 103, 103, 1);
+}
+
+.second-coment-box {
+  position: absolute;
+  top: 1111px;
+  left: 213px;
+}
+
+.third-coment-box {
+  position: absolute;
+  top: 1286px;
+  left: 213px;
+}
+
+.add-Review {
+  position: absolute;
+  top: 846px;
+  left: 202px;
+  height: 600px;
+  z-index: 2;
+  width: 1100px;
+  background-color: white;
+}
+
+.title {
+  position: absolute;
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 201px;
+  left: 0px;
+}
+
+.rating {
+  position: absolute;
+  top: 70px;
+  font-family: Kumbh Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 445px;
+  color: rgba(29, 32, 38, 1);
+}
+.stars-container {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 120px;
+  font-size: 35px;
+  color: rgba(97, 97, 97, 1);
+  left: 0px;
+}
+
+.headline {
+  position: absolute;
+  top: 150px;
+  font-family: Kumbh Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(29, 32, 38, 1);
+  left: 0px;
+}
+.headlin {
+  position: absolute;
+  top: 195px;
+  height: 45px;
+  width: 640px;
+  border-radius: 10px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(144, 144, 144, 1);
+  border-color: rgba(182, 182, 182, 1);
+  outline: none;
+}
+
+.review {
+  position: absolute;
+  top: 260px;
+  font-family: Kumbh Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.revie {
+  position: absolute;
+  top: 310px;
+  height: 126px;
+  width: 640px;
+  border-radius: 10px;
+  color: rgba(144, 144, 144, 1);
+  border-color: rgba(182, 182, 182, 1);
+  outline: none;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+::placeholder {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.cancle {
+  height: 47px;
+  width: 97px;
+  background-color: rgba(156, 156, 156, 1);
+  border-radius: 10px;
+  position: absolute;
+  top: 542px;
+  right: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cancl {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.add {
+  height: 47px;
+  width: 97px;
+  background-color: rgba(255, 126, 27, 1);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ad {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hide-cancle {
+  background-color: white;
+  height: 47px;
+  width: 97px;
+  position: absolute;
+  left: 403px;
+  bottom: -160px;
+  z-index: 3;
+}
+
+.edit {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: -3px;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.delete {
+  display: flex;
+
+  position: absolute;
+  right: 690px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  top: 933.5px;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.box{
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  right: 690px;
+  top: 933.5px;
 }
